@@ -1,0 +1,26 @@
+
+{
+  "name": "taskflow",
+  "version": "1.0.0",
+  "description": "TaskFlow REST API - Task Management Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "taskflow",
+    "nodejs",
+    "express",
+    "postgresql",
+    "rest-api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "pg": "^8.23.1"
+  }
+}
+
